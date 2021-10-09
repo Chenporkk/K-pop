@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #root{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1800px;
+        background-color: darkcyan;
+        height: 500px;
+        display: flex;
+    }
+    .left-side{
+        width: 20%;
+        background-color: darkgrey;
+        height: 300px;
+        border-right: 3px solid black;
+    }
+    .right-side{
+        width: 80%;
+        background-color: darkmagenta;
+        height: 300px;
+       
+    }
+    .circle{
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+
+        margin: 5px;
+    }
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-sizing: border-box;
+    }
+    .card p{
+        color: burlywood;
+    }
+    .card{
+        width: 400px;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid green;
+        border-radius: 20px;
+        box-shadow: green 2px 2px;
+    }
+    #color{
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+</style>
+<body>
+
+    <div class="card">
+        <h1>ORIGINAL COLOR SHOES</h1>
+        <p>SHOES WITH DIFFERENT COLOR AND BACKGROUND</p>
+        <img style="text-align: center;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsT7uDjDrbvly2_1_OkSZ4ZGQPjOyYgPAbZQ&usqp=CAU" alt="shoe">
+        <div id="color" style="display: flex;">
+            <div class="circle" style="background-color: blueviolet;"> </div>
+            <div class="circle" style="background-color: rgb(226, 43, 104);"> </div>
+            <div class="circle" style="background-color: rgb(43, 226, 89);"> </div>
+            <div class="circle" style="background-color: rgb(43, 86, 226);"> </div>
+        </div>
+        <div>
+            <h1 style="display: inline-block; color: rgb(15, 196, 202);">$90</h1>
+            <button style="margin-left: 100px; display:  inline-block; background-color: honeydew; border: 2px solid green; border-radius: 20px; width: 120px; height: 40px;">ADD TO CART</button>
+        </div>
+        
+    </div>
+    
+    
+
+    
+</body>
+</html>
